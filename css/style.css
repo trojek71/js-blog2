@@ -79,6 +79,7 @@ body {
 
 .list-horizontal li {
   display: inline-block;
+  margin-right: 5px;
 }
 
 /* Authors */
@@ -106,5 +107,9 @@ body {
 
 .post-tags p {
   margin: 0 10px 0 0;
+}
+
+.list a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

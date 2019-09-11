@@ -22,6 +22,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
+  
 }
 
 .container {
@@ -54,6 +55,7 @@ body {
 
 .posts {
   flex: 2 0 0;
+  
 }
 
 .sidebar, .posts {
@@ -88,6 +90,7 @@ body {
 .list-horizontal {
   li {
     display: inline-block;
+    margin-right: 5px;
   }
 }
 
@@ -103,6 +106,7 @@ body {
 
 .post {
   display: none;
+  
   &.active {
     display: block;
   }
@@ -117,4 +121,7 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+}
+.list a{
+  text-decoration: none;
 }
